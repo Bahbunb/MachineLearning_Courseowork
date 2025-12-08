@@ -4,8 +4,8 @@ from typing import List
 @dataclass
 class DataConfig:
     """Configuration for data paths and basic parameters"""
-    DATA_PATH_C: str = '/Users/luqman/Desktop/Year 3/ST3189/COURSEWORK/classification/data/data_i.csv'
-    DATA_PATH_R: str = '/Users/luqman/Desktop/Year 3/ST3189/COURSEWORK/regression/data/ames_combined_dataset.csv'
+    DATA_PATH_C: str = '/Users/belinda/Desktop/MachineLearning_Courseowork/data.csv'
+    DATA_PATH_R: str = '/Users/belinda/Desktop/MachineLearning_Courseowork/ames.csv'
     TASK_TYPE: str = 'regression'  # 'classification' or 'regression'
     RANDOM_SEED: int = 24
     N_SPLITS: int = 5
