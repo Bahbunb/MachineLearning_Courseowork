@@ -96,7 +96,7 @@ class ModelConfig:
 @dataclass
 class RegressionConfig:
     """Configuration for regression task"""
-    TARGET_COLUMN: str = 'SalePrice'
+    TARGET_COLUMN: str = 'price'
     DROP_COLUMNS: List[str] = None
     LOG_TRANSFORM_TARGET: bool = True
     

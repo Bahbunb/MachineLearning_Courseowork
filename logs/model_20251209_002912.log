@@ -1,5 +1,0 @@
-2025-12-09 00:29:12,858 - Starting experiment runner
-2025-12-09 00:29:12,858 - Configuration loaded successfully
-2025-12-09 00:29:12,858 - Log transform: disabled
-2025-12-09 00:29:12,858 - Running all experiment combinations
-2025-12-09 00:29:12,879 - Model Error: Error running experiments: "['SalePrice'] not found in axis"

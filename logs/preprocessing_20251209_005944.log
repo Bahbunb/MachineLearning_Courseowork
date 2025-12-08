@@ -1,0 +1,8 @@
+2025-12-09 00:59:44,053 - Loaded data: 2930 rows, 80 features
+2025-12-09 00:59:44,056 - Found 15749 null values, cleaning...
+2025-12-09 00:59:44,068 - Dropped 5 high-null columns: ['Alley', 'Mas.Vnr.Type', 'Pool.QC', 'Fence', 'Misc.Feature']...
+2025-12-09 00:59:44,070 - Encoding 37 categorical columns
+2025-12-09 00:59:44,082 - 
+Data Shape:
+2025-12-09 00:59:44,082 - X shape: (2930, 75)
+2025-12-09 00:59:44,082 - y shape: (2930,)
