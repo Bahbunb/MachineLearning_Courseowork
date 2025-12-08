@@ -96,8 +96,9 @@ class RegressionModel(BaseModel):
             return explainer(X)
 
     def predict(self, X):
-        """Make predictions"""
-        predictions = super().predict(X)
+        self.validate_model()
+        predictions = self.model.predict(X)
+    
         
         # If log transform was applied, convert predictions back to original scale
         if self.log_transform:
